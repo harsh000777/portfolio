@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#nav-list{
+	padding: 4px 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 99;
+    transition: all 0.3s;
+}
+
+.sh-img {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px;
+    cursor: pointer;
+}
+
+.sh-img  {
+    transition: all 1s;
+}
+
+
+
+.card{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px;
+    cursor: pointer;
+}
